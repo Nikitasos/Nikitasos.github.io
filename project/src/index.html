@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Bootstrap / Первый раунд / Пошумим, бл*дь!</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:500,900&amp;subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css">
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	<script src="js/script.js"></script>
+</head>
+<body>
+	<header class="header" id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4">
+					<img src="img/logo.svg" alt="Battle" class="logo">
+				</div>
+				
+			</div>
+				<div class="row">
+			<div class="col-lg-6">
+					<div class="offer">
+					<div class="offer__dop-title">
+							EPIC BATTLE
+					</div>
+						<h1 class="offer__title">
+							BOOTSTRAP 4 VS FLEXBOX
+						</h1>
+							<ul class="offer__list">
+								<li class="offer__item">
+									Кто победит в этом противостоянии?
+								</li>
+								<li class="offer__item">
+									Кто докажет что он проще и удобнее?
+								</li>
+								<li class="offer__item">
+									Кто позволит получить лучший результат?
+								</li>
+							</ul>
+							<a href="#voice_g" class="btns offer__btn">Болею за... кого?</a>
+						</div>
+			</div>
+			<div class="col-lg-6">
+				<img src="img/fist.svg" alt="Fist" class="fist">
+			</div>
+			</div>
+		</div>
+	</header>
+	<section class="classic" id="classic">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 h2_cards">
+					<h2 >КЛАССИКА: 3 ЭЛЕМЕНТА В СТРОКУ</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-4">
+					<div class="card">
+						<div class="row no-gutters">
+							<div class="col-lg-5">
+								<div class="card-letter text-uppercase">
+									A
+								</div>
+							</div>
+							<div class="col-lg-7">
+								<div class="card-title">
+									Карточка
+								</div>
+								<div class="card-text">
+									Она живет красиво, она живет раскошно
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="card">
+						<div class="row no-gutters">
+							<div class="col-lg-5">
+								<div class="card-letter text-uppercase">
+									B
+								</div>
+							</div>
+							<div class="col-lg-7">
+								<div class="card-title">
+									Карточка
+								</div>
+								<div class="card-text">
+									Она живет красиво, она живет раскошно
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="card">
+						<div class="row no-gutters">
+							<div class="col-lg-5">
+								<div class="card-letter text-uppercase">
+									C
+								</div>
+							</div>
+							<div class="col-lg-7">
+								<div class="card-title">
+									Карточка
+								</div>
+								<div class="card-text">
+									Она живет красиво, она живет раскошно
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="unusal" id="unusal">
+		<div class="container">
+			<h2>НЕ ТАК УЖ И КЛАССИЧНО</h2>
+			<div class="border-cont">
+				<div class="color-block color-block_blue"></div>
+				<div class="color-block color-block_violet"></div>
+				<div class="color-block color-block_purple"></div>
+				<div class="color-block color-block_pink"></div>
+				<div class="color-block color-block_red"></div>
+				<div class="color-block color-block_green"></div>
+				<div class="color-block color-block_yellow"></div>
+			</div>
+		</div>
+	</section>	
+
+	<section class="inf" id="inf">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<h2 class="about__name">Что это за сайт?</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12 text-center ">
+					<p class="about__text">Мы создали сайт, на котором решили опросить вас, о том, как вы думаете, у кого больше шансов победить в Web-сражении удобства использования: у Bootstrap или у Flexbox</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12 text-center img2">
+					<img src="img/default.jpg" alt="" class="img2_i">
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section class="unusal" id="unusal">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-uppercase text-center">
+					<h2 class="select">За кого вы? </h2>
+				</div>
+			</div>
+			<div class="row selected">
+				<div class="col-lg-12">
+					<select name="Who" id="who_b" class="custom-select">
+						<option value="Bootstrap">Bootstrap</option>
+						<option value="Flexbox">Flexbox</option>
+					</select>
+				</div>
+			</div>
+			<div class="row ">
+				<div class="col-lg-12">
+					<button class="btn btn-large btn-primary btn-block button_1" onclick="fun_1();" id="voice_g">
+						Отправить мой голос
+					</button>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer" id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-2">
+					<div class="footer__logo">
+						<img src="img/logo.svg" alt="">
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="footer__text">
+						<p>© 2018 Suslik Company.</p>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
